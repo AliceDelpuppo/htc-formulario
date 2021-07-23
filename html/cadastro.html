@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTC_Cadastro</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <form id="register">
+        <h1>Faça seu cadastro</h1>
+
+        <div class="campo">
+            <label for="name-register">Nome completo</label>
+            <input type="text" name="name-register" id="name-register" placeholder="Digite seu nome completo" required>
+        </div>
+
+        <div class="campo birth-country">
+            <div>
+                <label for="date-birth">Data de Nascimento</label>
+                <input type="date" name="date-birth" id="date-birth" required>
+            </div>
+
+            <div>
+                <label for="country">País</label>
+                <select name="country" id="country">
+                    <option selected disabled value="">Selecionar</option>
+                    <option>Brasil</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Uruguai</option>
+                </select>
+            </div>
+        </div>
+
+        <span class="gender">Gênero:</span>
+
+        <div class="gender">
+            <div>
+                <input type="radio" name="gender" id="feminine">
+                <label for="feminine">Feminino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="gender" id="masculine">
+                <label for="masculine">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="gender" id="not-declare">
+                <label for="not-declare">Não declarar</label>
+            </div>
+        </div>
+
+
+        <div class="campo">
+            <label for="email-register">E-mail</label>
+            <input type="email" name="email-register" id="email-register" placeholder="Digite seu email" required>
+
+            <label for="password-register">Senha</label>
+            <input type="password" name="password-register" id="password-register" placeholder="Crie uma senha"
+                required>
+
+            <label for="password-confirm">Confirme sua senha</label>
+            <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirmar senha" required>
+        </div>
+
+        <div class="terms">
+            <div><input type="checkbox" name="terms" id="terms" required></div>
+            <div><span>Aceito os <a href="#">termos e condições</a> e concordo com as <a href="#">políticas de privacidade</a> do Hall To Code.</span></div>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+        <div class="footer"><span>Já tem conta no Hall To Code? <a href="#">Entre agora</a></span></div>
+    </form>
+
+
+</body>
+
+</html>

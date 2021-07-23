@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    /* color: #323730; */
+    /* color: red; */
+    
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 37px;
+    color: #3F3D56;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+a {
+    font-size: 14px;
+    color: #1DB9E0;
+    text-decoration: none;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #ABB3A8;
+}
+
+.campo label {
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 6px;
+    color: #323730;
+}
+
+#login #email-login, #login #password-login {
+    width: 515px;
+    height: 47px;
+    padding-left: 17px;
+    border: 1px solid #ABB3A8;
+    margin-bottom: 39px;
+}
+
+#login .forget-password {
+    font-size: 14px;
+    color: #323730;
+    display: flex;
+    justify-content: space-between;
+}
+
+#register #name-register, #register #email-register, #register #password-register, #register #password-confirm {
+    width: 396px;
+    height: 47px;
+    padding-left: 17px;
+    border: 1px solid #ABB3A8;
+    margin-bottom: 24px;
+}
+
+#register .birth-country {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#register .gender{
+    font-size: 14px;
+    color: #323730;
+    display: flex;
+    justify-content: space-between;
+}
+
+#register .terms {
+    border: 1px solid red;
+    color: #323730;
+    font-size: 14px;
+    display: flex;
+}
+
+#recovery p {
+    font-size: 16px;
+    color: #5A6256;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+#recovery .campo #email-recovery {
+    width: 396px;
+    height: 47px;
+    padding-left: 17px;
+    border: 1px solid #ABB3A8;
+}
+
+#recovery .link-back{
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #323730;
+}
+
+button {
+    /* border: 1px solid red; */
+    background-color: #3F3D56;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 32px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4a4868;
+    /* box-shadow: inset 2px 2px 2px #3F3D56; */
+}
+
+input:focus {
+    background-color: #e0e0f867;
+}
