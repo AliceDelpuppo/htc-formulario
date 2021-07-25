@@ -2,7 +2,7 @@
 
 
 * {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
     /* color: #323730; */
@@ -114,6 +114,7 @@ a {
 
 button {
     /* border: 1px solid red; */
+    border: none;
     background-color: #3F3D56;
     color: white;
     font-size: 16px;
@@ -124,11 +125,12 @@ button {
     margin-top: 32px;
     margin-bottom: 25px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #4a4868;
-    /* box-shadow: inset 2px 2px 2px #3F3D56; */
+    box-shadow: inset 2px 2px 2px #3F3D56;
 }
 
 input:focus {
