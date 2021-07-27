@@ -52,7 +52,7 @@ a {
     color: #ABB3A8;
 }
 
-.campo label {
+.field label {
     font-size: 14px;
     display: flex;
     margin-bottom: 6px;
@@ -140,7 +140,7 @@ a {
     margin-bottom: 28px;
 }
 
-#recovery .campo #email-recovery {
+#recovery .field #email-recovery {
     display: inline-block;
     width: 100%;
     height: 47px;
@@ -180,6 +180,7 @@ button:hover {
 
 input:focus {
     background-color: #e0e0f867;
+    outline: none;
 }
 
 #register #password-confirm.invalid {

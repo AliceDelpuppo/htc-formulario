@@ -18,20 +18,20 @@
         <form id="register">
             <h1>Faça seu cadastro</h1>
 
-            <div class="campo">
+            <div class="field">
                 <label for="name-register">Nome completo</label>
-                <input type="text" name="name-register" id="name-register" placeholder="Digite seu nome completo">
+                <input type="text" name="name-register" id="name-register" placeholder="Digite seu nome completo" required>
             </div>
 
-            <div class="campo birth-country">
+            <div class="field birth-country">
                 <div>
                     <label for="date-birth">Data de Nascimento</label>
-                    <input type="date" name="date-birth" id="date-birth">
+                    <input type="date" name="date-birth" id="date-birth" required>
                 </div>
 
                 <div>
                     <label for="country">País <span>*</span></label>
-                    <select name="country" id="country">
+                    <select name="country" id="country" required>
                         <option selected disabled value="">Selecionar</option>
                         <option>Brasil</option>
                         <option>Argentina</option>
@@ -62,15 +62,15 @@
                 </div>
             </div>
 
-            <div class="campo">
+            <div class="field">
                 <label for="email-register">E-mail</label>
-                <input type="email" name="email-register" id="email-register" placeholder="Digite seu email">
+                <input type="email" name="email-register" id="email-register" placeholder="Digite seu email" required>
 
                 <label for="password-register">Senha</label>
-                <input type="password" name="passwor-register" id="password-register" placeholder="Crie uma senha">
+                <input type="password" name="passwor-register" id="password-register" placeholder="Crie uma senha" required>
 
                 <label for="password-confirm">Confirme sua senha</label>
-                <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirmar senha">
+                <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirmar senha" required>
 
             </div>
 
